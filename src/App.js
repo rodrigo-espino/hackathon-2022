@@ -1,7 +1,10 @@
 import React from 'react'
 //Pages
+
+import {Main} from './Pages/SignInPanel'
 import { Candidatos } from './Pages/candidatos';
 import {Main} from './Pages/Main'
+
 import {Cuidadanos} from './Pages/Cuidadanos'
 //Danna
 import {Vote} from './Pages/voting'
@@ -12,7 +15,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className="col-md-4">
+    
       <div className="p-4">
     <Routes>
        <Route path="/" element={  <Main/> }/>
@@ -24,7 +27,7 @@ function App() {
        
     </Routes>
     </div>
-    </div>
+    
 
 </>
 
