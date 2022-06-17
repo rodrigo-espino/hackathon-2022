@@ -3,7 +3,7 @@ import React from 'react'
 
 import {Main} from './Pages/SignInPanel'
 import { Candidatos } from './Pages/candidatos';
-import {Main} from './Pages/Main'
+
 
 import {Cuidadanos} from './Pages/Cuidadanos'
 //Danna
