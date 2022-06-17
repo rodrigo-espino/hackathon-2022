@@ -1,6 +1,6 @@
 import React from 'react'
 //Pages
-import {Main} from './Pages/Main'
+import {Main} from './Pages/SignInPanel'
 import {Cuidadanos} from './Pages/Cuidadanos'
  
 import { Routes, Route } from "react-router-dom";
