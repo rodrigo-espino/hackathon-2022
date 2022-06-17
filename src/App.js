@@ -6,7 +6,8 @@ import { Candidatos } from './Pages/candidatos';
 import {Main} from './Pages/Main'
 
 import {Cuidadanos} from './Pages/Cuidadanos'
-//Danna
+import {Resultados} from './Pages/Resultados'
+
 //Mora
 //Jorge
 import { Navbar } from './components/navBar';
@@ -20,7 +21,7 @@ function App() {
     <Routes>
        <Route path="/" element={  <Main/> }/>
        <Route path="/uriel" element={  <Cuidadanos/>}/>
-       {/*Danna*/ }
+       <Route path="/Resultados" element={ <Resultados/>}/>{}
        {/*Mora*/ }
        {/*Jorge*/ }
        <Route path="/candidatos" element={  <Candidatos/> }/>
