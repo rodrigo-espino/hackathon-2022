@@ -3,6 +3,7 @@ import './App.css';
 
 export default function App() {
   return (
+<<<<<<< HEAD
     <>
     <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
@@ -41,6 +42,9 @@ export default function App() {
   </div>
 </nav>
 </>
+=======
+<h1> Hola </h1>
+>>>>>>> 7546f8b32cdab8cfa8d8109c7fc2a7c52bfd6525
   );
 }
 
