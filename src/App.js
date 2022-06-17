@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className="col-md-4">
+    
       <div className="p-4">
     <Routes>
        <Route path="/" element={  <Main/> }/>
@@ -24,7 +24,7 @@ function App() {
        
     </Routes>
     </div>
-    </div>
+    
 
 </>
 
