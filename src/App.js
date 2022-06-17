@@ -3,12 +3,16 @@ import React from 'react'
 
 import {Main} from './Pages/SignInPanel'
 import { Candidatos } from './Pages/candidatos';
-import {Main} from './Pages/Main'
 
 import {Cuidadanos} from './Pages/Cuidadanos'
+
 import {Resultados} from './Pages/Resultados'
 
 //Mora
+
+//Danna
+import {Vote} from './Pages/voting'
+
 //Jorge
 import { Navbar } from './components/navBar';
 import { Routes, Route } from "react-router-dom";
@@ -21,8 +25,14 @@ function App() {
     <Routes>
        <Route path="/" element={  <Main/> }/>
        <Route path="/uriel" element={  <Cuidadanos/>}/>
-       <Route path="/Resultados" element={ <Resultados/>}/>{}
+
+       <Route path="/Resultados" element={ <Resultados/>}/>
+       {}
        {/*Mora*/ }
+
+       {/*Danna*/ }
+       <Route path="/voting" element={  <Vote/>}/>
+
        {/*Jorge*/ }
        <Route path="/candidatos" element={  <Candidatos/> }/>
        
