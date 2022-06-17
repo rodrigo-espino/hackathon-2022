@@ -10,22 +10,70 @@ export function Cuidadanos () {
   </thead>
   <tbody>
     <tr class="table-active">
-    <th scope="row">IDMEX2093366414</th>
+    <th scope="row">IDMEX1535976481</th>
       <td colspan="2" class="table-active">0X83D7</td>
-      <td>durancarrascoj@gmail.com</td>
+      <td> ciudadanoanonimo1@gmail.com</td>
       <td>yes/no</td>
     </tr>
 
     <tr>
-    <th scope="row"> ID INE</th>
-      <td colspan="2" class="table-active">Cartera</td>
-      <td>e-mail</td>
-      <td>verificación</td>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo2@gmail.com</td>
+      <td>yes/no</td>
     </tr>
     <tr>
-      <th scope="row">IDMEX2093366414</th>
+    <th scope="row">IDMEX1535976481</th>
       <td colspan="2" class="table-active">0X83D7</td>
-      <td>durancarrascoj@gmail.com</td>
+      <td> ciudadanoanonimo3@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo4@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo4@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo5@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo6@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo7@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo8@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo9@gmail.com</td>
+      <td>yes/no</td>
+    </tr>
+    <tr>
+    <th scope="row">IDMEX1535976481</th>
+      <td colspan="2" class="table-active">0X83D7</td>
+      <td> ciudadanoanonimo10@gmail.com</td>
       <td>yes/no</td>
     </tr>
   </tbody>
