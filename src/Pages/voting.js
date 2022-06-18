@@ -1,6 +1,10 @@
 import React from 'react'
-
+import {useNavigate} from 'react-router-dom'
 export function Vote() {
+const navigate = useNavigate();
+  const handleonClick = () => {
+    navigate('/')
+  }
   return (
     <>
     <div class="d-grid gap-2 d-md-flex justify-content-md-end"></div>
@@ -9,7 +13,7 @@ export function Vote() {
       <button type="button" className="btn btn-secondary">Votos restantes</button>
       </div>
       <div className="col-md-6">
-       <button class="btn btn-primary me-md-2" type="button">Log Out</button>
+       <button class="btn btn-primary me-md-2" type="button" onClick={handleonClick} >Log Out</button>
        </div>
        <div className="col-md-6">
 <br />
@@ -23,7 +27,7 @@ export function Vote() {
           </center>
           <center>
             <h3>Jonhy Deep</h3>
-            <a href="#" className="btn btn-primary">Votar</a>
+            <a href="#" className="btn btn-primary" onClick={handleonClick} >Votar</a>
           </center>
         </div>
         <div className="col-md-3">
@@ -32,7 +36,7 @@ export function Vote() {
           </center>
           <center>
             <h3>Katy Perry</h3>
-            <a href="#" className="btn btn-primary">Votar</a>
+            <a href="#" className="btn btn-primary" onClick={handleonClick}>Votar</a>
           </center>
         </div>
         <div className="col-md-3">
@@ -41,7 +45,7 @@ export function Vote() {
           </center>
           <center>
             <h3>Tom Holland</h3>
-            <a href="#" className="btn btn-primary">Votar</a>
+            <a href="#" className="btn btn-primary" onClick={handleonClick}>Votar</a>
           </center>
         </div>
         <div className="col-md-3">
@@ -50,7 +54,7 @@ export function Vote() {
           </center>
           <center>
             <h3>Andrew Garfield</h3>
-            <a href="#" className="btn btn-primary">Votar</a>
+            <a href="#" className="btn btn-primary" onClick={handleonClick}>Votar</a>
           </center>
         </div>
         </div>
