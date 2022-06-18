@@ -1,13 +1,15 @@
 import React from 'react'
 
-export  function SignInPanel()  {
+export  function Main()  {
   return (
    
             <div className="contenedor__todo">
                 <div className="caja__trasera">
                     <div className="caja__trasera-login">
+                  
                         <h3>¿Ya tienes una cuenta?</h3>
                         <p>Inicia sesión para entrar en la página</p>
+                        
                         <button id="btn__iniciar-sesion">Iniciar Sesión</button>
                     </div>
                     <div className="caja__trasera-register">
@@ -24,6 +26,7 @@ export  function SignInPanel()  {
                     --Login--
                     
                     <form action="" className="formulario__login">
+                    <img src='logo.png' className="logo"/>
                         <h2>Iniciar Sesión</h2>
                         <input type="text" placeholder="Correo Electronico"/>
                         <input type="password" placeholder="Contraseña"/>
