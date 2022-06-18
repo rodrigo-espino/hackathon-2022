@@ -1,13 +1,11 @@
 import React from 'react'
-//Pages
-import {voting} from './Pages/voting|'
- 
-import { Routes, Route } from "react-router-dom";
-function vote() {
+export function Vote() {
   return (
-    <Routes>
-       <Route path="/" element={  <voting/> }/>
-    </Routes>
+   <div className="col-md-9">
+    <div className="row">
+    <img src="img/logo.png" class="rounded float-start"></img>
+    </div>
+     
+   </div>
   )
 }
-export default vote
