@@ -22,5 +22,6 @@ contract vChain is ERC721URIStorage, Ownable {
         return newItemId;
     }
 
+    
 
 }
