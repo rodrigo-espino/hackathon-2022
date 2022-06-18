@@ -4,9 +4,9 @@ import React from 'react'
 import {Main} from './Pages/SignInPanel'
 import { Candidatos } from './Pages/candidatos';
 
-import {Cuidadanos} from './Pages/Cuidadanos'
-
-import {Resultados} from './Pages/Resultados'
+import {Cuidadanos} from './Pages/Cuidadanos';
+import {Resultados} from './Pages/Resultados';
+//import {img} from './Pages/img' 
 
 //Mora
 
