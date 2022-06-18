@@ -1,9 +1,6 @@
 import React from 'react'
 //Pages
-
 import { Candidatos } from './Pages/candidatos';
-
-import {Cuidadanos} from './Pages/Cuidadanos'
 //Danna
 import {Vote} from './Pages/voting'
 //Jorge
@@ -18,7 +15,7 @@ function App() {
     <Routes>
      
        <Route path="/uriel" element={  <Cuidadanos/>}/>
-       {/*Danna*/ }
+       <Route path="/Resultados" element={  <Resultados/>}/>
        <Route path="/voting" element={  <Vote/>}/>
        {/*Jorge*/ }
        <Route path="/candidatos" element={  <Candidatos/> }/>
