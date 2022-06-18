@@ -1,6 +1,6 @@
 import React from 'react'
 //Pages
-import { Candidatos } from './Pages/candidatos';
+import {Resultados} from './Pages/Resultados';
 //Danna
 import {Vote} from './Pages/voting'
 //Jorge
@@ -10,16 +10,10 @@ function App() {
   return (
     <>
     <Navbar/>
-    
       <div className="p-4">
     <Routes>
-     
-       <Route path="/uriel" element={  <Cuidadanos/>}/>
-       <Route path="/Resultados" element={  <Resultados/>}/>
+       <Route path="/" element={  <Resultados/>}/>
        <Route path="/voting" element={  <Vote/>}/>
-       {/*Jorge*/ }
-       <Route path="/candidatos" element={  <Candidatos/> }/>
-       
     </Routes>
     </div>
     
