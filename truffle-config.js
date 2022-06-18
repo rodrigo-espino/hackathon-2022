@@ -22,6 +22,9 @@
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+const MNEMONIC = "neck crucial town auction object execute turtle country elder tribe host black"
+
 
 module.exports = {
   /**
@@ -41,9 +44,13 @@ module.exports = {
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
     //
-    development: {
+    zeniq: {
+      provider: () => new HDWalletProvider(MNEMONIC, 'http://smart3.zeniq.network:8545'),
+      network_id: "*"
+    },
+     development: {
       host: "127.0.0.1",     // Localhost (default: none)
-      port: 8545,            // Standard Ethereum port (default: none)
+      port: 7545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
      },
     // Another network with more advanced options...
