@@ -1,9 +1,15 @@
 import React from 'react'
 //Pages
 
-import {Main} from './Pages/SignInPanel'
 import { Candidatos } from './Pages/candidatos';
+<<<<<<< HEAD
 
+=======
+import {Resultados} from './Pages/Resultados';
+//import {img} from './Pages/img' 
+
+//Mora
+>>>>>>> 9c3e3f5171cf458caa0c58527538b1c77ddd268f
 
 import {Cuidadanos} from './Pages/Cuidadanos'
 //Danna
@@ -18,7 +24,7 @@ function App() {
     
       <div className="p-4">
     <Routes>
-       <Route path="/" element={  <Main/> }/>
+     
        <Route path="/uriel" element={  <Cuidadanos/>}/>
        {/*Danna*/ }
        <Route path="/voting" element={  <Vote/>}/>
