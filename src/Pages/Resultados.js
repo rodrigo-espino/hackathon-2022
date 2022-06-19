@@ -35,42 +35,43 @@ let navigate = useNavigate();
       <div className="row">
         <div className="col-md-3">
           <center>
-            <img src="jonhy.jpg" className="Candidato" />
+            <img src="esteban.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Jonhy Deep</h3>
-            <h1>1851862 votos</h1>
+            <h3>Esteban Villegas</h3>
+            <h1>10,000 votos</h1>
           </center>
         </div>
         <div className="col-md-3">
           <center>
-            <img src="KatyPerry.jpg" className="Candidato" />
+            <img src="patricia_flores.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Katy Perry</h3>
-            <h1>1868486 votos</h1>
+            <h3>Patricia Flores</h3>
+            <h1>344 votos</h1>
           </center>
         </div>
         <div className="col-md-3">
           <center>
-            <img src="TomHolland.jpg" className="Candidato" />
+            <img src="marina.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Tom Holland</h3>
-            <h1>186486486 votos</h1>
+            <h3>Marina Vitela</h3>
+            <h1>3,466 votos</h1>
           </center>
         </div>
         <div className="col-md-3">
           <center>
-            <img src="AndrewGarfield.jpg" className="Candidato" />
+            <img src="independiente.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Andrew Garfield</h3>
-            <h1>46745848 votos</h1>
+            <h3>Candidato Indep.</h3>
+            <h1>5,463 votos</h1>
           </center>
         </div>
-        <br /><br />
+        
         <div className="col-md-20">
+          <br /><br />
         <table className="table">
           <thead>
             <th scope="row"> Ciudadano </th>

@@ -9,51 +9,49 @@ const navigate = useNavigate();
     <>
     <div class="d-grid gap-2 d-md-flex justify-content-md-end"></div>
       <div className="row">
-    <div className="col-md-6">
-      <button type="button" className="btn btn-secondary">Votos restantes</button>
-      </div>
-      <div className="col-md-6">
-       <button class="btn btn-primary me-md-2" type="button" onClick={handleonClick} >Log Out</button>
-       </div>
-       <div className="col-md-6">
+    
+      
+       <button className="btn btn-primary me-md-2 logout" type="button" onClick={handleonClick} >Log Out</button>
+       
+       
 <br />
 <br />
-       </div>
+       
        </div>
        <div className="row">
         <div className="col-md-3">
           <center>
-            <img src="jonhy.jpg" className="Candidato" />
+            <img src="esteban.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Jonhy Deep</h3>
+            <h3>Esteban Villegas</h3>
             <a href="#" className="btn btn-primary" onClick={handleonClick} >Votar</a>
           </center>
         </div>
         <div className="col-md-3">
           <center>
-            <img src="KatyPerry.jpg" className="Candidato" />
+            <img src="marina.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Katy Perry</h3>
+            <h3>Marina Vitela</h3>
             <a href="#" className="btn btn-primary" onClick={handleonClick}>Votar</a>
           </center>
         </div>
         <div className="col-md-3">
           <center>
-            <img src="TomHolland.jpg" className="Candidato" />
+            <img src="patricia_flores.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Tom Holland</h3>
+            <h3>Patricia Flores</h3>
             <a href="#" className="btn btn-primary" onClick={handleonClick}>Votar</a>
           </center>
         </div>
         <div className="col-md-3">
           <center>
-            <img src="AndrewGarfield.jpg" className="Candidato" />
+            <img src="independiente.jpeg" className="Candidato" />
           </center>
           <center>
-            <h3>Andrew Garfield</h3>
+            <h3>Candidato Indep.</h3>
             <a href="#" className="btn btn-primary" onClick={handleonClick}>Votar</a>
           </center>
         </div>
